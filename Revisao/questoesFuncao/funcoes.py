@@ -16,3 +16,10 @@ def aplica_desconto(preco):
 valor = float(input("Digite um valor de ação para ser verificado: "))
 
 print(verifica_valor(valor))
+
+#quarta questão
+
+def verifica_idade(idade):
+    return "Maior de idade" if idade >= 18 else "Menor de idade"
+
+
