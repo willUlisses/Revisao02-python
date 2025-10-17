@@ -13,13 +13,28 @@ def aplica_desconto(preco):
 
 #terceira questão
 
-valor = float(input("Digite um valor de ação para ser verificado: "))
-
-print(verifica_valor(valor))
+#valor = float(input("Digite um valor de ação para ser verificado: "))
+#print(verifica_valor(valor))
 
 #quarta questão
 
 def verifica_idade(idade):
     return "Maior de idade" if idade >= 18 else "Menor de idade"
 
+#quinta questão
+
+def calcula_imc(peso, altura):
+    return (peso/(altura**2))
+
+def classifica_imc(valor_imc):
+    if valor_imc  >= 25:
+        print("Acima do peso")
+    elif valor_imc < 18.5:
+        print("Abaixo do peso")
+    else:
+        print("Peso normal")
+
+
+imc = calcula_imc(67, 1.70)
+classifica_imc(imc)
 
