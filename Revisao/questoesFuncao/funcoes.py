@@ -13,8 +13,8 @@ def aplica_desconto(preco):
 
 #terceira questão
 
-#valor = float(input("Digite um valor de ação para ser verificado: "))
-#print(verifica_valor(valor))
+valor = float(input("Digite um valor de ação para ser verificado: "))
+print(verifica_valor(valor))
 
 #quarta questão
 
@@ -37,4 +37,11 @@ def classifica_imc(valor_imc):
 
 imc = calcula_imc(67, 1.70)
 classifica_imc(imc)
+
+
+# sexta questão
+
+def calcula_imposto(preco):
+    return preco + (preco * 0.15)
+
 
